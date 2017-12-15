@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Hello, world!</title>
+    <title>Login</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -12,21 +12,27 @@
   <body>
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
-        <h1>Please log in</h1>
-        <form>
-          <div class="form-group">
-            <label for="email">Email:</label>
-            <input type="email" class="form-control" placeholder="example@email.com" id="email" required>
+        <div class="row">
+          <div class="col-12 col-sm-8 col-md-6 col-lg-4 offset-sm-4 offset-sd-3 offset-lg-4">
+            <h1 class="mb-3 text-center">Please log in</h1>
+            <form class="mb-3">
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" placeholder="example@email.com" id="email" required>
+              </div>
+              <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" class="form-control" id="password" required>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">Login</button>
+            </form>
+            <div class="text-center">
+              <p>or..</p>
+              <a href="#" class="btn btn-success">Create account</a>
+              <p class="small"><a href="#">Have you forgotten your account details?</a></p>
+            </div>
           </div>
-          <div class="form-control">
-            <label class="password">Password:</label>
-            <input type="password" class="form-control" placeholder="password" id="password">
-          </div>
-          <button type="submit" class="btn btn-primary btn-block">Login</button>
-        </form>
-        <p>or..</p>
-        <a href="#" class="btn btn-success">Create account</a>
-        <p class="small"><a href="#">Have you forgotten your account details?</a></p>
+        </div>
       </div>
     </div>
 
