@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   </head>
   <body>
-    <div class="container">
+    <div class="container my-3 my-sm-5">
+      <h1 class="mb-sm-4 text-center">Contact</h1>
       <div class="row">
         <div class="col-12 col-md-6">
-          <h1>Contact</h1>
           <h4>Address:</h4>
           <address>
             <strong>BIET, Jhansi</strong><br>
@@ -26,36 +26,49 @@
         <div class="col-12 col-md-6">
           <h4>Opening hours:</h4>
           <p>
-            Mon-Tue: 10 am - 6 pm<br>
-            Fri-Sat: 10 am - 10 pm<br>
-            Sunday: 10 am - 8 pm<br>
+            Mon-Tue:<span class="float-right"> 10 am - 6 pm</span><br>
+            Fri-Sat:<span class="float-right"> 10 am - 10 pm</span><br>
+            Sunday:<span class="float-right"> 10 am - 8 pm</span><br>
           </p>
         </div>
       </div>
       <div class="row">
-        <div class="col-12 col-lg-6">
+        <div class="col-12 col-lg-6 mb-3">
           <h4>Send us a message</h4>
           <form action="#">
-            <div class="form-group">
-              <label for="name">Name</label>
-              <input type="text" id="name" class="form-control" placeholder="Name" required>
+            <div class="row">
+              <div class="col-12 col-sm-6">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" class="form-control" placeholder="Name" required>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6">
+                <div class="form-group">
+                  <label for="name">Email</label>
+                  <input type="email" id="email" class="form-control" placeholder="example@email.com" required>
+                </div>
+              </div>
             </div>
-            <div class="form-group">
-              <label for="name">Email</label>
-              <input type="email" id="email" class="form-control" placeholder="example@email.com" required>
-            </div>
-            <div class="form-group">
-              <label for="telephone">Telephone</label>
-              <input type="tel" id="telephone" class="form-control" placeholder="9876543210" required>
-            </div>
-            <div class="form-group">
-              <label for="select">Department:</label>
-              <select id="select" class="form-control" aira-describedby="select-helpBlock" required>
-                <option value="">- select here -</option>
-                <option value="business">Business</option>
-                <option value="Sale">Sale</option>
-                <option value="Support">Support</option>
-              </select>
+            <div class="row">
+              <div class="col-12 col-sm-6">
+                <div class="form-group">
+                  <label for="telephone">Telephone</label>
+                  <input type="tel" id="telephone" class="form-control" placeholder="9876543210" required>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6">
+                <div class="form-group">
+                  <label for="select">Department:</label>
+                  <select id="select" class="form-control" aira-describedby="select-helpBlock" required>
+                    <option value="">- select here -</option>
+                    <option value="business">Business</option>
+                    <option value="Sale">Sale</option>
+                    <option value="Support">Support</option>
+                  </select>
+                  <small id="select-helpBlock" class="form-text">Please select the recipient of your message.</small>
+                </div>
+              </div>
             </div>
             <div class="form-group">
               <label for="textarea">Message:</label>
