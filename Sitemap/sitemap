@@ -10,84 +10,94 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   </head>
   <body>
-    <h1>Sitemap</h1>
-    <h2>Categories</h2>
-    <ul class="list-unstyled">
-      <li><a href="#">Childern</a>
-        <ul>
-          <li><a href="#">Coats</a></li>
-          <li><a href="#">Jackets</a></li>
-          <li><a href="#">Jeans</a></li>
-          <li><a href="#">Shoes</a></li>
-          <li><a href="#">Shorts</a></li>
-          <li><a href="#">T-shirts</a></li>
-        </ul>
-      </li>
-      <li><a href="#">Men</a>
-        <ul>
-          <li><a href="#">Coats</a></li>
-          <li><a href="#">Jackets</a></li>
-          <li><a href="#">Jeans</a></li>
-          <li><a href="#">Outwear</a></li>
-          <li><a href="#">Shoes</a></li>
-          <li><a href="#">T-shirst</a></li>
-          <li><a href="#">Underwear</a></li>
-        </ul>
-      </li>
-      <li><a href="#">Women</a>
-        <ul>
-          <li><a href="#">Accessories</a>
-            <ul>
-              <li><a href="#">Handbags</a></li>
-              <li><a href="#">Scarver</a></li>
-              <li><a href="#">Sunglasses</a></li>
-            </ul>
-          </li>
-          <li><a href="#">Dresses</a>
-            <ul>
-              <li><a href="#">Casual</a></li>
-              <li><a href="#">Cocktail</a></li>
-              <li><a href="#">Summer</a></li>
-            </ul>
-          </li>
-          <li><a href="#">Pants</a></li>
-          <li><a href="#">Shoes</a>
-            <ul>
-              <li><a href="#">Boots</a></li>
-              <li><a href="#">Heels</a></li>
-              <li><a href="#">Sandals</a></li>
-            </ul>
-          </li>
-          <li><a href="#">Tops</a></li>
-        </ul>
-      </li>
-    </ul>
-    <h2>Pages</h2>
-    <ul class="list-unstyled">
-      <li><a href="#">About us</a>
-        <ul>
-          <li><a href="#">Our mission</a></li>
-          <li><a href="#">Our strategy</a></li>
-          <li><a href="#">Our values</a></li>
-          <li><a href="#">Our vision</a></li>
-        </ul>
-        <li><a href="#">Contact</a>
-          <ul>
-            <li>Jobs</li>
+    <div class="container my-3 my-sm-5">
+      <h1 class="mb-3 mb-sm-5 text-center">Sitemap</h1>
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-4">
+          <h2 class="mb-3">Categories</h2>
+          <ul class="list-unstyled">
+            <li><a href="#">Childern</a>
+              <ul>
+                <li><a href="#">Coats</a></li>
+                <li><a href="#">Jackets</a></li>
+                <li><a href="#">Jeans</a></li>
+                <li><a href="#">Shoes</a></li>
+                <li><a href="#">Shorts</a></li>
+                <li><a href="#">T-shirts</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Men</a>
+              <ul>
+                <li><a href="#">Coats</a></li>
+                <li><a href="#">Jackets</a></li>
+                <li><a href="#">Jeans</a></li>
+                <li><a href="#">Outwear</a></li>
+                <li><a href="#">Shoes</a></li>
+                <li><a href="#">T-shirst</a></li>
+                <li><a href="#">Underwear</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Women</a>
+              <ul>
+                <li><a href="#">Accessories</a>
+                  <ul>
+                    <li><a href="#">Handbags</a></li>
+                    <li><a href="#">Scarver</a></li>
+                    <li><a href="#">Sunglasses</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Dresses</a>
+                  <ul>
+                    <li><a href="#">Casual</a></li>
+                    <li><a href="#">Cocktail</a></li>
+                    <li><a href="#">Summer</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Pants</a></li>
+                <li><a href="#">Shoes</a>
+                  <ul>
+                    <li><a href="#">Boots</a></li>
+                    <li><a href="#">Heels</a></li>
+                    <li><a href="#">Sandals</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Tops</a></li>
+              </ul>
+            </li>
           </ul>
-        </li>
-        <li><a href="#">FAQs</a></li>
-        <li><a href="#">Our office</a></li>
-        <li><a href="#">Pricing</a></li>
-        <li><a href="#">Sitemap</a></li>
-      </li>
-    </ul>
-    <h2>Your Account</h2>
-    <ul class="list-unstyled">
-      <li><a href="#">Membership</a></li>
-      <li><a href="#">Order history</a></li>
-      <li><a href="#">Personal information</a></li>
-    </ul>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4">
+          <h2 class="mb-3">Pages</h2>
+          <ul class="list-unstyled">
+            <li><a href="#">About us</a>
+              <ul>
+                <li><a href="#">Our mission</a></li>
+                <li><a href="#">Our strategy</a></li>
+                <li><a href="#">Our values</a></li>
+                <li><a href="#">Our vision</a></li>
+              </ul>
+              <li><a href="#">Contact</a>
+                <ul>
+                  <li>Jobs</li>
+                </ul>
+              </li>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Our office</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Sitemap</a></li>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-4">
+          <h2 class="mb-3">Your Account</h2>
+          <ul class="list-unstyled">
+            <li><a href="#">Membership</a></li>
+            <li><a href="#">Order history</a></li>
+            <li><a href="#">Personal information</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
