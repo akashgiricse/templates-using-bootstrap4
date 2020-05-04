@@ -24,7 +24,7 @@ Here are some of the most common web-page templates made using bootstrap4
 ![Sitemap](./Sitemap/sitemap.png)
 
 ## Shortcuts
-![Shortcuts](./Shortcuts/shortcuts.png)
+![Shortcuts](./Shortcuts/shortcut.png)
 
 ## Audio-Gallery
 ![Audio-Gallery](./Audio-Gallery/audio-gallery.png)
